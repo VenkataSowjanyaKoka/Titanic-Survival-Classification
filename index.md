@@ -3,11 +3,6 @@ from IPython.core.display import display, HTML
 display(HTML("<style>.container { width:100% !important; }</style>"))
 ```
 
-
-<style>.container { width:100% !important; }</style>
-
-
-
 ```python
 #for structured data we use Spark SQL, SparkSession acts a pipeline between data and sql statements
 from pyspark.sql import SparkSession
